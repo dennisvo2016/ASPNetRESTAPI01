@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZWQMpphntwEN46NNV8rx/hWNZhtMmCXaFppFBunu2pjXvWhKOEHmjgl5SEb0LNSvaqAFf1rKeGW6UIlLY5EfHg==",
+  "dgSpecHash": "vnlPOTl/OsxEf449OSjhRHU2iqWGqmx92qYcnO9QWjiqvNv4pqtK+3ounxAzFS4c2lQP9nOuKmXQw7iqKGlNoQ==",
   "success": true,
   "projectFilePath": "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dennis Vo\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Dennis Vo\\.nuget\\packages\\minimalapis.extensions\\0.11.0\\minimalapis.extensions.0.11.0.nupkg.sha512",
+    "C:\\Users\\Dennis Vo\\.nuget\\packages\\minivalidation\\0.8.0\\minivalidation.0.8.0.nupkg.sha512"
+  ],
   "logs": []
 }
