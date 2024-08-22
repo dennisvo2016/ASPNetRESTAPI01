@@ -1,1 +1,15 @@
-GET http://localhost:5244/games
+GET http://localhost:5244/games/
+
+###
+GET http://localhost:5244/games/3
+
+###
+POST http://localhost:5244/games
+Content-Type: application/json
+
+{
+    "name": "Item 4",
+    "genre": "genre Item 4",
+    "price": 19.99,
+    "releaseDate": "2011-11-18"
+}

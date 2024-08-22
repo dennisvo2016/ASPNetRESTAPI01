@@ -3,6 +3,8 @@ using GameStore.Api.Dtos;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+const string GetGameEndpointName = "GetGame";
+
 List<GameDto> games = [
     new (
         0, "item 0", "name item 0", 5.00M, new DateOnly(2020,9,30)
@@ -20,5 +22,24 @@ List<GameDto> games = [
 
 //GET /games
 app.MapGet("games", () => games);
+
+//GET /games/1
+app.MapGet("games/{id}", (int id) => games.Find(g => g.Id == id))
+.WithName(GetGameEndpointName);
+
+//POST /games
+app.MapPost("games", (CreateGameDto newGame) => {
+    GameDto game = new (
+        games.Count + 1,
+        newGame.Name,
+        newGame.Genre,
+        newGame.Price,
+        newGame.ReleaseDate
+    );
+
+    games.Add(game);
+
+    return Results.CreatedAtRoute(GetGameEndpointName, new { id = game.Id}, game);
+});
 
 app.Run();
