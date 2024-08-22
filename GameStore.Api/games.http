@@ -13,3 +13,14 @@ Content-Type: application/json
     "price": 19.99,
     "releaseDate": "2011-11-18"
 }
+
+###
+PUT http://localhost:5244/games/2
+Content-Type: application/json
+
+{
+    "name": "Item 2 new",
+    "genre": "genre Item 2 new",
+    "price": 59.99,
+    "releaseDate": "2021-11-21"
+}
