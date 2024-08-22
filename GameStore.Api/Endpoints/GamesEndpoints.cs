@@ -1,5 +1,6 @@
 using System;
 using GameStore.Api.Dtos;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace GameStore.Api.Endpoints;
 
