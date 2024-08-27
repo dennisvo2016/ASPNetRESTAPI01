@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V5RWLDytpGIfmgJykdZ/9fThynUsAp8JSRcjzsSpTaOoRYscVl4uW4s6gdpcnFbxpP+YSZb9UXYH8wmAz37utQ==",
+  "dgSpecHash": "d7VF1l4npudf8bzJypzJaEPGuWbw/elF6uU9uiYW0qNcon1KJ8LVFDHPbgyoWsbf6GPHVsNnQasyyWm4TbIVAQ==",
   "success": true,
-  "projectFilePath": "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
+  "projectFilePath": "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dennis Vo\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.8\\microsoft.data.sqlite.core.8.0.8.nupkg.sha512",
     "C:\\Users\\Dennis Vo\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",

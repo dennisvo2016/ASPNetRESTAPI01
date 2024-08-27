@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj": {}
+    "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj": {
+    "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\Dennis Vo\\.nuget\\packages\\",
-        "outputPath": "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\obj\\",
+        "outputPath": "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dennis Vo\\AppData\\Roaming\\NuGet\\NuGet.Config",
