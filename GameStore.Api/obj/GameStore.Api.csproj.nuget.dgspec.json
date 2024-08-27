@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj": {}
+    "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj": {
+    "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\Dennis Vo\\.nuget\\packages\\",
-        "outputPath": "d:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\obj\\",
+        "outputPath": "D:\\_01.Projects\\CoreKnowledge, pMajor\\ASP.Net\\LabTest\\ASPNetRESTAPI01\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dennis Vo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.8, )"
