@@ -10,9 +10,9 @@
 # dependencies
 /node_modules
 /dist
-/tucblock-pearl-win32-x64
-/GameStore.Api/bin
-/GameStore.Api/obj
+/GameStore.Api/bin/Debug
+/GameStore.Api/obj/Debug
+/GameStore.Api/GameStore.db
 /.vscode
 
 # profiling files
