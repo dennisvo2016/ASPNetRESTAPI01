@@ -1,7 +1,7 @@
 GET http://localhost:5244/games/
 
 ###
-GET http://localhost:5244/games/4
+GET http://localhost:5244/games/2
 
 ###
 POST http://localhost:5244/games
@@ -20,7 +20,7 @@ Content-Type: application/json
 
 {
     "name": "Item 2 new",
-    "genre": "genre Item 2 new",
+    "genreId": 1,
     "price": 59.99,
     "releaseDate": "2021-11-21"
 }
