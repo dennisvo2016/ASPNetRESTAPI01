@@ -12,21 +12,6 @@ public static class GamesEndpoints
 {
     const string GetGameEndpointName = "GetGame";
 
-    private static readonly List<GameSummaryDto> games = [
-        new (
-            0, "item 0", "name item 0", 5.00M, new DateOnly(2020,9,30)
-        ),
-        new (
-            1, "item 1", "name item 1", 10.00M, new DateOnly(2020,10,30)
-        ),
-        new (
-            2, "item 2", "name item 2", 20.00M, new DateOnly(2020,11,30)
-        ),
-        new (
-            3, "item 3", "name item 3", 30.00M, new DateOnly(2020,12,30)
-        )
-    ];
-
     public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
     {
         var group = app.MapGroup("games").WithParameterValidation();
@@ -80,15 +65,8 @@ public static class GamesEndpoints
         });
 
         //DELETE /games/1
-        group.MapDelete("/{id}", (int id) => {
-            var index = games.FindIndex(g => g.Id == id);
-
-            if (index == -1)
-            {
-                return Results.NotFound();
-            }
-
-            games.RemoveAll(g => g.Id == id);
+        group.MapDelete("/{id}", (int id, GameStoreContext dbContext) => {
+            dbContext.Games.Where(g => g.Id == id).ExecuteDelete();
 
             return Results.NoContent();
         });
