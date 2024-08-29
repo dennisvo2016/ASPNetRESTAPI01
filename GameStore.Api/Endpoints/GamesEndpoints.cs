@@ -4,6 +4,7 @@ using GameStore.Api.Dtos;
 using GameStore.Api.Entities;
 using GameStore.Api.Mapping;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
 
 namespace GameStore.Api.Endpoints;
 
@@ -31,7 +32,12 @@ public static class GamesEndpoints
         var group = app.MapGroup("games").WithParameterValidation();
 
         //GET /games
-        group.MapGet("/", () => games);
+        group.MapGet("/", (GameStoreContext dbContext) => {
+            return dbContext.Games
+            .Include(g => g.Genre)//include Genre object inside Game object
+            .Select(g => g.ToGameSummaryDto())
+            .AsNoTracking();//improve the performance of the app
+        });
 
         //GET /games/1
         group.MapGet("/{id}", (int id, GameStoreContext dbContext) => {                        
