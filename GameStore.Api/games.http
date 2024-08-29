@@ -8,8 +8,8 @@ POST http://localhost:5244/games
 Content-Type: application/json
 
 {
-    "name": "Item 7",
-    "genreId": 2,
+    "name": "Item 1",
+    "genreId": 1,
     "price": 29.99,
     "releaseDate": "2011-12-18"
 }
